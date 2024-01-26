@@ -4,7 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/InputSystemWebViewDemo.unity
+    guid: aaa628f65c194411f8ac368439a07306
+  - enabled: 1
+    path: Assets/Scenes/XritWebViewDemo.unity
+    guid: 6e7fea6c25c5945379082827d9d58198
   m_configObjects:
     UnityEditor.XR.VisionOS.VisionOSSettings: {fileID: 11400000, guid: 51e2e868bbf2447cdb3b3e6cb0f65e43, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 72ac297735fe349318b34629e54dc436, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 417898bbe899d402fa79481f999d2c63, type: 2}
