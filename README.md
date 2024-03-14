@@ -14,9 +14,9 @@ Please note that there is not currently an example of interacting with the non-C
 
 1. Created a new project with Unity 2022.3.17 using the built-in 3D project template.
 2. Opened the Unity Package Manager and did the following:
-    - Installed the [Apple visionOS XR Plugin](https://docs.unity3d.com/Packages/com.unity.xr.visionos@1.0/manual/index.html) package (com.unity.xr.visionos).
-    - On the page for the com.unity.xr.visionos package, clicked on the "Samples" tab and clicked "Import" button for the "VR Sample - Built-in" sample.
-    - Installed the [XR Interaction Toolkit package](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html) (com.unity.xr.interaction.toolkit).
+    - Imported the [Apple visionOS XR Plugin](https://docs.unity3d.com/Packages/com.unity.xr.visionos@1.0/manual/index.html) package (com.unity.xr.visionos).
+    - On the page for the com.unity.xr.visionos package, clicked on the "Samples" tab and clicked "Import" button for "VR Sample - Built-in".
+    - Imported the [XR Interaction Toolkit package](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html) (com.unity.xr.interaction.toolkit).
 3. Made the following copies of the VR sample scenes:
 
 ```sh
@@ -42,7 +42,7 @@ cp "Assets/Samples/Apple visionOS XR Plugin/1.0.3/VR Sample - Built-in/Scenes/In
         - Added a Tracked Device Raycaster component
         - Removed the CanvasKeyboard child object
 
-6. Deleted the original sample scenes in Assets/Samples directory.
+6. Deleted the Assets/Samples directory containing the original sample scenes.
 
 7. Updated the following project settings:
     - "XR Plug-in Management": enabled the "Apple visionOS" XR plugin
