@@ -137,10 +137,13 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
+  visionOSBundleVersion: 1.0
+  tvOSBundleVersion: 1.0
   bundleVersion: 0.1
   preloadedAssets:
-  - {fileID: 11400000, guid: 72ac297735fe349318b34629e54dc436, type: 2}
   - {fileID: 6232060628713799768, guid: 417898bbe899d402fa79481f999d2c63, type: 2}
+  - {fileID: 11400000, guid: 72ac297735fe349318b34629e54dc436, type: 2}
+  - {fileID: 11400000, guid: aa26a328eb89340f494d63e0459e0691, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -161,6 +164,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+    VisionOS: com.DefaultCompany.visionos-vr-webview-example
     iPhone: com.DefaultCompany.visionos-vr-webview-example
   buildNumber:
     Standalone: 0
@@ -381,6 +385,13 @@ PlayerSettings:
       m_Height: 1024
       m_Kind: 4
       m_SubKind: App Store
+  - m_BuildTarget: VisionOS
+    m_Icons:
+    - m_Textures: []
+      m_Width: 1024
+      m_Height: 1024
+      m_Kind: 0
+      m_SubKind: 
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
     m_StaticBatching: 1
@@ -744,7 +755,7 @@ PlayerSettings:
   webGLPowerPreference: 2
   scriptingDefineSymbols:
     Standalone: VUPLEX_STANDALONE
-    VisionOS: VUPLEX_STANDALONE;VUPLEX_XR_INTERACTION_TOOLKIT
+    VisionOS: VUPLEX_XR_INTERACTION_TOOLKIT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

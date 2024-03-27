@@ -12,17 +12,17 @@ Please note that there is not currently an example of interacting with the non-C
 
 ## Steps taken to create this project
 
-1. Created a new project with Unity 2022.3.17 using the built-in 3D project template.
+1. Created a new project with Unity 2022.3.22 using the built-in 3D project template. 3D WebView for visionOS requires Unity 2022.3.19 or newer.
 2. Opened the Unity Package Manager and did the following:
-    - Imported the [Apple visionOS XR Plugin](https://docs.unity3d.com/Packages/com.unity.xr.visionos@1.0/manual/index.html) package (com.unity.xr.visionos).
+    - Imported v1.1.6 of the [Apple visionOS XR Plugin](https://docs.unity3d.com/Packages/com.unity.xr.visionos@1.0/manual/index.html) package (com.unity.xr.visionos). 3D WebView for visionOS requires this package to be v1.1 or newer.
     - On the page for the com.unity.xr.visionos package, clicked on the "Samples" tab and clicked "Import" button for "VR Sample - Built-in".
     - Imported the [XR Interaction Toolkit package](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html) (com.unity.xr.interaction.toolkit).
 3. Made the following copies of the VR sample scenes:
 
 ```sh
 mkdir Assets/Scenes
-cp "Assets/Samples/Apple visionOS XR Plugin/1.0.3/VR Sample - Built-in/Scenes/Main.unity" Assets/Scenes/XritWebViewDemo.unity
-cp "Assets/Samples/Apple visionOS XR Plugin/1.0.3/VR Sample - Built-in/Scenes/InputSystem UI.unity" Assets/Scenes/InputSystemWebViewDemo.unity
+cp "Assets/Samples/Apple visionOS XR Plugin/1.x.x/VR Sample - Built-in/Scenes/Main.unity" Assets/Scenes/XritWebViewDemo.unity
+cp "Assets/Samples/Apple visionOS XR Plugin/1.x.x/VR Sample - Built-in/Scenes/InputSystem UI.unity" Assets/Scenes/InputSystemWebViewDemo.unity
 ```
 
 4. Made the following modifications to the copied XritWebViewDemo.unity scene:
